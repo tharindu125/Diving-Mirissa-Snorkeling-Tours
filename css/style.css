@@ -595,6 +595,29 @@ html, body{ height: 100%; }
     ABOUT AREA
 -------------------------------------------------------------------*/
 
+#about {
+    background-image: url('../images/AboutBI.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.wave-animation img {
+    animation: waveMotion 8s ease-in-out infinite;
+}
+
+@keyframes waveMotion {
+    0% { transform: translateY(0px); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0px); }
+    75% { transform: translateY(10px); }
+    100% { transform: translateY(0px); }
+}
+
+
 .about-main{
 	background:#ffffff;
 }
