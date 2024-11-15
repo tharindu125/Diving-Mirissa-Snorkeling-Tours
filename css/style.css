@@ -962,7 +962,7 @@ html, body{ height: 100%; }
     left: 0;
 }
 
-.team-main .block-title{
+.team-main, .contact .block-title{
 	color:#fff;
 }
 
@@ -1614,11 +1614,20 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 }
 
 .footer-news p {
-    margin-bottom: 40px;
-    font-size: 16px;
+    margin: 20px 20px 0 20px;
+    font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color:#eaff00;
+	/* text-align:center; */
+}
+
+.footer-news h3 {
+    padding: 0px;
+    margin-left: 50px;
+    font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 	color:#ffffff;
-	text-align:center;
+	/* text-align:center; */
 }
 
 .footer-news form{
