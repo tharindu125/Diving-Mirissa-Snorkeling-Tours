@@ -971,6 +971,10 @@ html, body{ height: 100%; }
 	float: left;
     width: 100%;
 }
+.sf-team p {
+    color: black;
+    text-align: left;
+}
 .sf-team .thumb {
     float: left;
     width: 100%;
@@ -1061,7 +1065,15 @@ html, body{ height: 100%; }
     display: block;
 }
 
-.sf-team:hover .text-col h3, .sf-team:hover .text-col p {
+.sf-team:hover .text-col h3 {
+    color: #fdcb03;
+	transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+.sf-team:hover .text-col p {
     color: #fff;
 	transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
@@ -1069,7 +1081,14 @@ html, body{ height: 100%; }
     -ms-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
 }
-
+.menu_item_ul{
+    list-style: disc;
+    font-size: 15px;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    margin: 0px 0px 10px 15px;
+    text-align: left;
+    color: #1cf56c;
+  }
 /*------------------------------------------------------------------
     GALLERY AREA
 -------------------------------------------------------------------*/
