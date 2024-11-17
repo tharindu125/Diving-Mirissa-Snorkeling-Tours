@@ -1074,6 +1074,15 @@ html, body{ height: 100%; }
     GALLERY AREA
 -------------------------------------------------------------------*/
 
+#gallery {
+    background-image: url('../images/background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+}
+
+
 .gallery-main{
 	
 }
