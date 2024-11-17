@@ -1074,6 +1074,15 @@ html, body{ height: 100%; }
     GALLERY AREA
 -------------------------------------------------------------------*/
 
+#gallery {
+    background-image: url('../images/background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+}
+
+
 .gallery-main{
 	
 }
@@ -1100,6 +1109,8 @@ html, body{ height: 100%; }
 	width: 100%;
 	object-fit:cover;
 	-o-object-fit:cover;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .gal-item a:focus{
 	outline: none;
@@ -1124,6 +1135,8 @@ html, body{ height: 100%; }
 }
 .gal-item a:hover:after{
 	opacity: 1;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .modal-open .gal-container .modal{
 	background-color: rgba(0,0,0,0.4);
