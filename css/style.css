@@ -978,6 +978,7 @@ html, body{ height: 100%; }
 .sf-team{
 	float: left;
     width: 100%;
+   
 }
 .sf-team p {
     color: black;
@@ -988,6 +989,7 @@ html, body{ height: 100%; }
     width: 100%;
     overflow: hidden;
     background: #000;
+    border-radius: 15px;
 }
 .sf-team .text-col {
     float: left;
@@ -998,11 +1000,13 @@ html, body{ height: 100%; }
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     text-align: center;
-	background:#fff;
+	background:#ffffffd9;
+    border-radius: 15px;
 }
 
 .sf-team .thumb a img{
 	width:100%;
+    border-radius: 15px;
 }
 
 .sf-team:hover .text-col{
