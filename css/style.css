@@ -842,8 +842,13 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 
-.menu-main{
-	
+.menu-main p, ul{
+	font-size: 17px;
+    margin: 10px;
+}
+.menu-main ul{
+	font-size: 17px;
+    margin-left: 25px;
 }
 
 .menu-main .title-caption{
@@ -1078,7 +1083,7 @@ html, body{ height: 100%; }
 }
 
 .sf-team:hover .text-col h3 {
-    color: #fdcb03;
+    color: #03fdf5;
 	transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
