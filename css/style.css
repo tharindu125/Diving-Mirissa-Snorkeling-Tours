@@ -689,6 +689,14 @@ html, body{ height: 100%; }
 /*------------------------------------------------------------------
     SPECIAL-MENU AREA
 -------------------------------------------------------------------*/
+.icon-small {
+    width: 150px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+
 .special-menu{
 	background:url(../images/special_menu_bg.jpg) no-repeat center;
 	background-attachment:fixed;
