@@ -2121,7 +2121,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     transform: translateX(20px);
     transition: opacity 1s ease, transform 1s ease;
     font-size: 60px;
-    color: #030bfd;
+    color: #3dfd03;
 }
 
 .fade-in-up {
@@ -2139,23 +2139,23 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     height: 100vh; /* Full-screen height */
 }
 
-.image-section {
+.video-section {
     position: relative;
     overflow: hidden;
 }
 
-.image-section::before {
+.video-section::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity to control darkness */
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
-.image-section video {
+.video-section video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -2253,6 +2253,9 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     margin-top: 10px;
 }
 
+.text-section {
+    z-index: 1;
+}
 @media (max-width: 1200px) {
     .social-circle-border {
         border-radius: 50%;
@@ -2390,7 +2393,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 431px) {
     .footer-in-main{
         padding: 20px;
         margin: 0px 30px;
@@ -2428,23 +2431,29 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     }
 
     .banner-cell h1 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     .banner-cell h2 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
-    /* .split-screen {
-        display: block;
-        height: 100vh; /* Full-screen height */
-    } */
+    .fade-slider {
+        font-size: 20px !important;
+    }
 
-    /* .banner{
-        background:url(../images/banner.jpg) no-repeat center top;
-        background-attachment:fixed;
-        background-size:cover;
-        height:100vh;
-        min-height:0%;
-    } */
+    .book-btn a{ 
+        font-size: 15px !important;
+    }
+
+    .icon-small {
+        width: 75px; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+    }
+
+    .tab-title-menu {
+        margin: 0px 3px;
+    }
 }
