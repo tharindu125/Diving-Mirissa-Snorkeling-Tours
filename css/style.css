@@ -2463,6 +2463,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     }
 
     .banner {
-        height:80%;
+        height:75%;
+        max-height: 75%;
     }
 }
