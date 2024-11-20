@@ -2456,4 +2456,16 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     .tab-title-menu {
         margin: 0px 3px;
     }
+
+    .video-section video {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        position: relative;
+        z-index: 0;
+    }
+
+    .banner {
+        height:100vh;
+    }
 }
