@@ -2467,13 +2467,6 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     }
 
     .banner .container, .banner .banner-static, .banner .col-lg-12 {
-        height: 750%;
-    }
-    .banner-text {
-        display: table;
-        height: 750%;
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
+        height: 75%;
     }
 }
