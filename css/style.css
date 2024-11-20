@@ -247,16 +247,16 @@ html, body{ height: 100%; }
 /*------------------------------------------------------------------
    	Scrollup
 -------------------------------------------------------------------*/
-.scrollup{
-	width:40px;
-	height:40px;			
-	text-indent:-9999px;
-	opacity:0.3;
-	position:fixed;
-	bottom:20px;
-	right:40px;
-	display:none;			
-	background:url(../images/icon_top.png) no-repeat;
+.scrollup {
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    display: none;
+    background: url(../images/icon_top.png) no-repeat;
 }
 
 .scrollup:hover{
@@ -2256,6 +2256,19 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 .text-section {
     z-index: 1;
 }
+
+/* WhatsApp Button Styling */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 10px; /* Distance from the right */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's on top of other content */
+    text-decoration: none; /* Remove underline */
+}
+
 @media (max-width: 1200px) {
     .social-circle-border {
         border-radius: 50%;
