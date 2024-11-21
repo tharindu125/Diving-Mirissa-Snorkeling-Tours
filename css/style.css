@@ -1171,7 +1171,7 @@ html, body{ height: 100%; }
     color: color-mix(in srgb, var(--default-color), transparent 20%);
     margin: 0px 0px 10px 15px;
     text-align: left;
-    color: #1cf56c;
+    color:  rgb(76, 118, 8);
   }
 /*------------------------------------------------------------------
     GALLERY AREA
@@ -2295,6 +2295,28 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     cursor: pointer;
     z-index: 1000; /* Ensure it's on top of other content */
     text-decoration: none; /* Remove underline */
+}
+
+.tripadvisor-widget {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px auto; 
+    width: 100%;
+}
+
+#TA_selfserveprop819 {
+    max-width: 700px;
+    width: 90%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+    #TA_selfserveprop819 {
+        width: 100%; /* Full width for mobile devices */
+    }
 }
 
 @media (max-width: 1200px) {
