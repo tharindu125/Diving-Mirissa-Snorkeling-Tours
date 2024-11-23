@@ -2620,6 +2620,18 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     #TA_selfserveprop819 {
         width: 100%; /* Full width for mobile devices */
     }
+
+    .video-container {
+        width: 100%;
+        max-width: 560px; /* Maximum width of the video */
+        margin: 0 auto; /* Center align */
+      }
+      
+      .video-container iframe {
+        width: 100%;
+        height: 180px; /* Adjust as needed */
+        border: none; /* Removes default border */
+      }
 }
 
 @media (max-width: 431px) {
