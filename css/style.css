@@ -2284,6 +2284,17 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     background-color: rgba(8, 8, 8, 0.36);
 }
 
+.Booking_details {
+    flex: 1;
+    padding: 10px;
+    /* width: 50%; */
+    /* height: 400px; */
+    border:  8px solid rgba(255, 255, 255, 0.163);
+    border-radius: 15px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(8, 8, 8, 0.36);
+}
+
 .logo h2 {
     color: rgb(0, 229, 255);
     font-family: 'nautilus_pompiliusregular';
@@ -2471,6 +2482,17 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     color: #ffd700; /* Gold color for stars */
 }
 
+.navbar_btn {
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'nautilus_pompiliusregular';
+    font-size: 25px;
+    background-color: red;
+    border: #ffffff00;
+    margin: 15px 0px 15px 10px;
+    float: center;
+}
+
 @media (min-width: 992px) {
     .testimonials .testimonial-item p {
         width: 80%;
@@ -2576,6 +2598,14 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     .footer-logo{
         padding-bottom:40px;
     }
+
+    .Booking_details h2 {
+        font-size: 30px !important;
+    }
+
+    .Booking_details p {
+        font-size: 15px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -2617,6 +2647,25 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
         background-color: rgba(8, 8, 8, 0.36);
     }
 
+    .Booking_details {
+        flex: 1;
+        padding: 10px;
+        width: 100%;
+        height: 300px;
+        border:  8px solid rgba(255, 255, 255, 0.163);
+        border-radius: 15px;
+        box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: rgba(8, 8, 8, 0.36);
+    }
+
+    .Booking_details h2 {
+        font-size: 25px !important;
+    }
+
+    .Booking_details p {
+        font-size: 13px !important;
+    }
+
     #TA_selfserveprop819 {
         width: 100%; /* Full width for mobile devices */
     }
@@ -2632,6 +2681,35 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
         height: 180px; /* Adjust as needed */
         border: none; /* Removes default border */
       }
+}
+
+@media (max-width: 624px) {
+    .Booking_details .col-lg-6, 
+    .Booking_details .col-md-6, 
+    .Booking_details .col-sm-6, 
+    .Booking_details .col-xs-6 {
+        width: 100%; 
+        text-align: left; 
+        margin: 0px;
+    }
+
+    .Booking_details .col-lg-12, 
+    .Booking_details .col-md-12, 
+    .Booking_details .col-sm-12, 
+    .Booking_details .col-xs-12 {
+        width: 100%; 
+        text-align: left; 
+    }
+
+    
+    .Booking_details h2 {
+        margin: 0px;
+    }
+
+    .Booking_details p {
+       margin: 0px;
+    }
+
 }
 
 @media (max-width: 431px) {
@@ -2662,6 +2740,10 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
     .contact_sub_details a{
         font-size: 14px;
+    }
+
+    .Booking_details_p {
+        font-size: 5px;
     }
 
     .logo h2 {
