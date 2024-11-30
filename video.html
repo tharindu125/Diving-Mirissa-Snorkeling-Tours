@@ -144,7 +144,7 @@
                                 <div class="logo">
                                     <a class="navbar-brand js-scroll-trigger logo-header" href="#">
                                         <!-- <img src="images/logo.png" alt=""> -->
-                                        <h2 style="color: rgb(0, 229, 255); font-family: nautilus_pompiliusregular; font-size: 30px; margin-top: 10px;">Diving Mirissa Snorkeling Tours</h2>
+                                        <h2>Diving Mirissa Snorkeling Tours</h2>
                                     </a>
                                 </div>
                             </div>
@@ -583,6 +583,34 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
+        const slider = document.querySelector(".fade-slider");
+        const words = slider.getAttribute("data-words").split(":");
+        let index = 0;
+
+        function showNextWord() {
+            // Apply fade-in-up effect
+            slider.textContent = words[index];
+            slider.classList.add("fade-in-up");
+
+            // Remove fade-in-up and apply fade-out after delay
+            setTimeout(() => {
+                slider.classList.remove("fade-in-up");
+                slider.classList.add("fade-out");
+            }, 1500); // Adjust duration for fade-out timing
+
+            // After fade-out, switch to the next word and repeat
+            setTimeout(() => {
+                slider.classList.remove("fade-out");
+                index = (index + 1) % words.length;
+                showNextWord();
+            }, 2000); // Adjust for total cycle duration
+        }
+
+        // Start the animation loop
+        showNextWord();
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
         const swiper = new Swiper(".init-swiper", {
             loop: true, // Enable infinite looping
             autoplay: {
@@ -605,4 +633,6 @@
             },
         });
     });
+
+
 </script>

@@ -2155,12 +2155,24 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .fade-slider {
     display: inline-block;
-    opacity: 0;
+    opacity: 1;
     transform: translateX(20px);
     transition: opacity 1s ease, transform 1s ease;
     font-size: 60px;
-    color: #3dfd03;
+    color: #00ff1a;
+    text-shadow: 
+        0 0 20px #ffea00,
+        0 0 30px #ffd000,
+        0 0 40px #ffb300,
+        0 0 50px #ffa800;
 }
+
+/* Add a hover effect or animation to test */
+.fade-slider:hover {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 
 .fade-in-up {
     opacity: 1;
