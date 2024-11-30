@@ -70,16 +70,16 @@
   }
 
   body{
-	/* color: var(--default-color); */
-    background: linear-gradient(45deg, rgb(255, 111, 0), rgb(166, 255, 0), rgb(0, 153, 255), rgb(255, 255, 255));
-    background-size: 300% 300%;
+	color: var(--default-color);
+    /* background: linear-gradient(45deg, rgb(255, 111, 0), rgb(166, 255, 0), rgb(0, 153, 255), rgb(255, 255, 255)); */
+    /* background-size: 300% 300%; */
 	font-size:14px;
 	font-family: 'Roboto', sans-serif;
 	line-height:1.80857;
-    animation: gradiant 5s ease infinite;
+    /* animation: gradiant 5s ease infinite; */
 }
 
-@keyframes gradiant {
+/* @keyframes gradiant {
     0% {
         background-position: 0% 50%;
     }
@@ -89,7 +89,7 @@
     100% {
         background-position: 0% 50%;
     }
-}
+} */
 
 a {
     color: #1f1f1f;
@@ -2349,8 +2349,23 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    margin: 10px auto; 
+    margin: 5px auto; 
     width: 100%;
+    background: linear-gradient(45deg, rgb(255, 111, 0), rgb(166, 255, 0), rgb(0, 153, 255), rgb(255, 255, 255));
+    background-size: 300% 300%;
+    animation: gradiant 5s ease infinite;
+}
+
+@keyframes gradiant {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 #TA_selfserveprop819 {
