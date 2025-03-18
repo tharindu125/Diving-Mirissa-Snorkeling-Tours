@@ -2202,10 +2202,10 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     font-size: 60px;
     color: #00ff1a;
     text-shadow: 
-        0 0 20px #ffea00,
-        0 0 30px #ffd000,
-        0 0 40px #ffb300,
-        0 0 50px #ffa800;
+        0 0 1px #ffea00,
+        0 0 2px #ffd000,
+        0 0 4px #ffb300,
+        0 0 8px #ffa800;
 }
 
 /* Add a hover effect or animation to test */
